@@ -10,6 +10,8 @@
 
 @interface ViewController : UIViewController
 
+@property(nonatomic,strong) NSString * firstName;
+@property(nonatomic,strong) NSString * flastName;
 
 @end
 

@@ -15,6 +15,8 @@
 		107D42CF1F3C1D69006F03A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 107D42CD1F3C1D69006F03A8 /* LaunchScreen.storyboard */; };
 		107D42DA1F3C1D69006F03A8 /* GitTutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 107D42D91F3C1D69006F03A8 /* GitTutorialTests.m */; };
 		107D42E51F3C1D69006F03A8 /* GitTutorialUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 107D42E41F3C1D69006F03A8 /* GitTutorialUITests.m */; };
+		E282F3A320BA92D400126D3D /* landPage1.png in Resources */ = {isa = PBXBuildFile; fileRef = E282F3A120BA92D400126D3D /* landPage1.png */; };
+		E282F3A420BA92D400126D3D /* landPage.png in Resources */ = {isa = PBXBuildFile; fileRef = E282F3A220BA92D400126D3D /* landPage.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		107D42E01F3C1D69006F03A8 /* GitTutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitTutorialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		107D42E41F3C1D69006F03A8 /* GitTutorialUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitTutorialUITests.m; sourceTree = "<group>"; };
 		107D42E61F3C1D69006F03A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E282F3A120BA92D400126D3D /* landPage1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = landPage1.png; sourceTree = "<group>"; };
+		E282F3A220BA92D400126D3D /* landPage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = landPage.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,8 @@
 				107D42C31F3C1D69006F03A8 /* AppDelegate.m */,
 				107D42C51F3C1D69006F03A8 /* ViewController.h */,
 				107D42C61F3C1D69006F03A8 /* ViewController.m */,
+				E282F3A220BA92D400126D3D /* landPage.png */,
+				E282F3A120BA92D400126D3D /* landPage1.png */,
 				107D42C81F3C1D69006F03A8 /* Main.storyboard */,
 				107D42CB1F3C1D69006F03A8 /* Assets.xcassets */,
 				107D42CD1F3C1D69006F03A8 /* LaunchScreen.storyboard */,
@@ -247,7 +253,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				107D42CF1F3C1D69006F03A8 /* LaunchScreen.storyboard in Resources */,
+				E282F3A320BA92D400126D3D /* landPage1.png in Resources */,
 				107D42CC1F3C1D69006F03A8 /* Assets.xcassets in Resources */,
+				E282F3A420BA92D400126D3D /* landPage.png in Resources */,
 				107D42CA1F3C1D69006F03A8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,6 +515,7 @@
 				107D42EB1F3C1D69006F03A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		107D42EC1F3C1D69006F03A8 /* Build configuration list for PBXNativeTarget "GitTutorialTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +524,7 @@
 				107D42EE1F3C1D69006F03A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		107D42EF1F3C1D69006F03A8 /* Build configuration list for PBXNativeTarget "GitTutorialUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +533,7 @@
 				107D42F11F3C1D69006F03A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
